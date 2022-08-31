@@ -53,7 +53,7 @@ public class Co2EnergyCalc extends BaseOperator {
             co2 = store.getLastCo2();
         }
 
-        if (diff != null && co2 != null && diff > 0) {
+        if (diff != null && co2 != null) {
             Double total = store.getTotal();
             if (total == null) {
                 total = 0.0;
