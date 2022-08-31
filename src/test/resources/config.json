@@ -1,0 +1,23 @@
+{
+  "inputTopics": [
+    {
+      "Name": "test",
+      "FilterType": "DeviceId",
+      "FilterValue": "1,2",
+      "Mappings": [
+        {
+          "Dest": "co2",
+          "Source": "value.reading.co2"
+        },
+        {
+          "Dest": "energy",
+          "Source": "value.reading.energy"
+        },
+        {
+          "Dest": "expect",
+          "Source": "value.reading.expect"
+        }
+      ]
+    }
+  ]
+}

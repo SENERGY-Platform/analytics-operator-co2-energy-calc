@@ -1,0 +1,62 @@
+[
+  {
+    "device_id": "1",
+    "value": {
+      "reading": {
+        "co2": 10,
+        "energy": null,
+        "expect": null
+      }
+    }
+  },
+  {
+    "device_id": "1",
+    "value": {
+      "reading": {
+        "co2": null,
+        "energy": 0,
+        "expect": null
+      }
+    }
+  },
+  {
+    "device_id": "1",
+    "value": {
+      "reading": {
+        "co2": 20,
+        "energy": null,
+        "expect": null
+      }
+    }
+  },
+  {
+    "device_id": "1",
+    "value": {
+      "reading": {
+        "co2": null,
+        "energy": 0.5,
+        "expect": 10
+      }
+    }
+  },
+  {
+    "device_id": "1",
+    "value": {
+      "reading": {
+        "co2": 50,
+        "energy": null,
+        "expect": null
+      }
+    }
+  },
+  {
+    "device_id": "1",
+    "value": {
+      "reading": {
+        "co2": null,
+        "energy": 1,
+        "expect": 35
+      }
+    }
+  }
+]
